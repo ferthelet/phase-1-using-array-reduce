@@ -1,0 +1,15 @@
+
+> js-variables-lab@0.1.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+
+  reducer
+    batteries
+      ✓ should have a `totalBatteries` variable
+      ✓ should have a number as a result
+      ✓ should have made the sum of all the assembled batteries
+
+
+  3 passing (269ms)
+
